@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 100;
+}
+
+.back{
+    width: 100%;
+    background-image:linear-gradient( rgba(0,0,0, 0.5) 0%, rgba(0,0,0, 0.5) 100%), url(../img/projection1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+html{
+    font-size:15px;
+}
+
+
+
+/* navigation area */
+
+.max{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom:2.5rem;
+    flex-wrap:wrap;
+}
+
+nav .fa-bars{
+    display: none;
+
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navdown{
+    border: 0;
+    width: 100%;
+    height: 0.1rem;
+    background-color: grey;
+}
+
+
+/* header section  */
+.section-max{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section-max h1 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.mean{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.mean section{
+    width: 30%;
+}
+
+.mean section span{
+    color:  #6cc091 ;
+    font-size: 2rem;
+}
+
+.mean section h2{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.mean section p{
+    font-weight: 100;
+    margin-bottom: 0.1rem;
+}
+
+.mean hr{
+    border: 0;
+    width: 0.1rem;
+    height: auto;
+    background-color: grey;
+}
+
+.section-max button{
+    width: 13rem;
+    height: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    background: none;
+    color:  #6cc091;
+    border: 0.2rem solid  #6cc091;
+    border-radius:1.7rem;
+}
+
+
+
+/* 2 section part  */
+
+ .section-mmax{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6rem;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.changes section{
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.changes section img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+.changes section h3{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: #777777;
+    line-height: 2rem;
+}
+
+.changes section p{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: grey;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.changes section button{
+    width: 13rem;
+    height: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    background: none;
+    color:  #6cc091;
+    border: 0.2rem solid  #6cc091;
+    border-radius:1.7rem;
+}
+
+
+
+/* footer  */
+
+footer{
+    width: 100%;
+    background-color:  #6cc091;
+    color: #ffffff;
+    margin: 0;
+}
+
+.center{
+    max-width:1050px;
+    margin: 0 auto;
+}
+
+.center h1{
+    font-weight: 100;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.center form .idname section{
+     width: 49%;
+}
+
+.center form .idname section h2 input{
+    width: 100%;
+    padding: 0.4rem;
+    border: 0;
+    border: 0.2em solid #8dcca9;
+    background: none;
+    margin-top: 0.2rem;
+}
+
+.center form h3{
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.center form .idname section h2{
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.center form h3 textarea{
+    width: 100%;
+    height: 40%;
+    padding: 0.4rem;
+    border: 0;
+    border: 0.2em solid #8dcca9;
+    background: none;
+    margin-top: 0.2rem;
+}
+
+.center form .idname{
+     display: flex;
+     justify-content: space-between;
+}
+
+.center form button{
+    width: 13rem;
+    height: 3.5rem;
+    background: none;
+    color:  #ffffff;
+    border: 0.1rem solid  #ffffff;
+    border-radius:1.7rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.center p{
+   text-align: center;
+   font-weight: 100;
+   margin-top: 0.5rem;
+}
+
+
+
+
+@media only screen and (max-width:750px){
+
+    /* navigation  */
+
+    nav{
+        padding: 2rem 2rem 2rem 1rem;
+    }
+
+    ul{
+        display: none;
+        position: absolute;
+        top: 6rem;
+        left: 0rem;
+        padding-left: 0rem;
+    }
+
+    ul li {
+        list-style-type: none;
+        margin-left: 1rem;
+        margin-top: 0.7rem;
+    }
+
+    ul li a{
+        font-size:1rem ;
+        font-weight: 100;
+    }
+
+    nav .fa-bars{
+        display:block;
+        color: whitesmoke;
+        width: 1rem;
+        height: 1rem;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    
+    
+    nav a{
+        align-items: center;
+        padding-top: 0.4rem;
+        font-size: 1.2rem;
+    }
+
+
+
+    /* header section  */
+    .section-max h1 a{
+        font-size: 2.5rem;
+    }
+
+    .section-max h1{
+        margin-top: 7.5rem;
+        
+    }
+
+    .mean{
+        display: block;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .section-max .mean section h2{
+       font-size: 1.3rem;
+    }
+
+    .section-max .mean section{
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .section-max button{
+        width: 10rem;
+        height: 3rem;
+        border: 0.1rem solid;
+       
+    }
+
+    .mean hr{
+        display: block;
+        border: 0;
+        width: 50%;
+        margin: 0 auto;
+        height: 0.1rem;
+        background-color:grey;
+        margin-top: 1.8rem;
+    }
+
+
+
+    /* 2 section part  */
+
+    .flex{
+        display: block;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .changes section{
+        width: 100%;
+        padding: 3rem 0  3rem 0;
+    }
+
+
+    .changes section p{
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    .changes section button {
+        width: 8rem;
+        height: 2.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        border: 0.1rem solid;
+    }
+
+    .changes section {
+        padding-bottom: 1rem;
+        border-bottom: 0.1rem solid #dbdbdd;
+        margin-top: 1rem;
+    }
+    
+
+    /* footer  */
+
+    .center form .idname{
+        display: block;
+   }
+
+   .center{
+       padding-left: 1rem;
+       padding-right:1rem ;
+   } 
+
+   .center form .idname section{
+       width: 100%;
+   }
+   
+   .center form .idname section h2{
+       font-size:0.7rem;
+   }
+
+   .center form h3{
+    font-size:0.7rem;
+   }
+
+   .center form button{
+    width: 9rem;
+    height: 2.5rem;
+   }
+
+   .center p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.5rem;
+    margin-top: 0.9rem;
+    padding-bottom: 0.9rem;
+ }
+
+
+   
+
+
+
+}
+
+
